@@ -1,0 +1,16 @@
+[project]
+name = "gpt-repository-loader"
+version = "0.1.0"
+description = "Tool to convert a Git repository into a plain-text format readable by AI models"
+dependencies = []
+requires-python = ">=3.7"
+
+[project.scripts]
+gpt-repository-loader = "gpt_repository_loader.gpt_repository_loader:main"
+
+[tool.setuptools]
+packages = ["gpt_repository_loader"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

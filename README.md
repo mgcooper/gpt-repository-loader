@@ -21,6 +21,20 @@ To get started with `gpt-repository-loader`, follow these steps:
 
 5. The tool will generate an output.txt file containing the text representation of the repository. You can now use this file as input for AI language models or other text-based processing tasks.
 
+### Optional: Install via pipx
+
+You can also install and run the tool via pipx:
+
+```bash
+pipx install git+https://github.com/mpoon/gpt-repository-loader.git
+```
+
+Once installed, run it with:
+
+```bash
+gpt-repository-loader /path/to/git/repository [-p /path/to/preamble.txt] [-o /path/to/output_file.txt]
+```
+
 ## Running Tests
 
 To run the tests for `gpt-repository-loader`, follow these steps:
